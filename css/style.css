@@ -295,8 +295,6 @@ body {
 }
 
 .social__item {
-  width: 27px;
-  height: 27px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -307,8 +305,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 5px 0 0;
-  line-height: 27px;
-  line-height: 0px;
 }
 
 .social__item--white {
@@ -327,9 +323,74 @@ body {
   background-color: black;
 }
 
-.social__item--bigger {
+.social__item--size27 {
+  width: 27px;
+  height: 27px;
+  line-height: 27px;
+}
+
+.social__item--size38 {
   width: 38px;
   height: 38px;
+  line-height: 38px;
+}
+
+.social__icon--vk-header {
+  width: 17px;
+  height: auto;
+}
+
+.social__icon--mail-header {
+  width: 13px;
+  height: auto;
+}
+
+.social__icon--ok-header {
+  width: 10px;
+  height: auto;
+}
+
+.social__icon--facebook-header {
+  width: 8px;
+  height: auto;
+}
+
+.social__icon--twitter-header {
+  width: 14px;
+  height: auto;
+}
+
+.social__icon--vk-footer {
+  width: 24px;
+  height: auto;
+}
+
+.social__icon--mail-footer {
+  width: 19px;
+  height: auto;
+}
+
+.social__icon--ok-footer {
+  width: 14px;
+  height: auto;
+}
+
+.social__icon--facebook-footer {
+  width: 12px;
+  height: auto;
+}
+
+.social__icon--twitter-footer {
+  width: 19px;
+  height: auto;
+}
+
+.social__icon--grey {
+  fill: #828282;
+}
+
+.social__icon--white {
+  fill: #fff;
 }
 
 .menu {
