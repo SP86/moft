@@ -1045,7 +1045,6 @@ label > span {
 
 .title__text {
   font-weight: 600;
-  font-size: 25px;
   line-height: 35px;
 }
 
@@ -1250,6 +1249,7 @@ label > span {
 }
 
 .together__title {
+  max-width: 580px;
   margin: 0 0 11px 38px;
 }
 
@@ -1408,7 +1408,7 @@ label > span {
 
 @media (min-width: 1440px) {
   .title__text {
-    font-size: calc(35px);
+    font-size: calc(25px);
   }
 }
 
@@ -1434,7 +1434,7 @@ label > span {
 
 @media (max-width: 1440px) {
   .title__text {
-    font-size: calc(19px + 27.2 * ((100vw - 320px )/ 1440));
+    font-size: calc(19px + 10.2 * ((100vw - 320px )/ 1440));
   }
 
   .banner__column--left {
@@ -1740,7 +1740,7 @@ label > span {
   }
 
   .banner-card__actions .single-btn {
-    min-width: 100%;
+    min-width: 90%;
   }
 
   .steps__row {
